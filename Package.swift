@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-async-algorithms", exact: Version("1.0.0-alpha")),
-        .package(url: "https://github.com/duydvtomosia/Swallow", branch: "master"),
+        .package(url: "https://github.com/vmanot/Swallow", branch: "master"),
         .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", exact: Version("0.1.5"))
     ],
     targets: [
